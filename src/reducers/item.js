@@ -1,4 +1,6 @@
-const INIT_STATE = [
+const INIT_STATE = [];
+
+const basicData = [
     { id: 1, title : 'Tooth paste', link : 'http://www.colgate.com/CP15/en/us/oc/products/toothpaste/images/kids-cavity-protection-toothpaste-outofpack-02.png'},
     { id: 2, title : 'iPhone', link : 'https://support.apple.com/content/dam/edam/applecare/images/en_US/iphone/featured-content-iphone-transfer-content-ios10_2x.png'},
     { id: 3, title : 'Nexus 6p', link : 'https://img.kogan.com/Es0y8-xnCCzGXpNxGnKMpaia1fI=/600x400/http://assets.kogan.com/files/products/HK-PHONES/HUAWEI-BLACK.jpg'},
@@ -11,6 +13,6 @@ export default (state = INIT_STATE, action) => {
 
   switch (action.type) {
     default:
-      return state;
+      return [...state, ...basicData];
   }
 }
