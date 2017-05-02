@@ -1,6 +1,6 @@
 # Redux shopping cart tutorial
 
-This is a project I did following this tutorial: https://www.udemy.com/learn-react-the-worlds-most-lucrative-javascript-library/
+This is a project I did following this [tutorial:] (https://www.udemy.com/learn-react-the-worlds-most-lucrative-javascript-library/)
 
 This project is written in Javascript, using React, Redux, via the create-react-app.
 
